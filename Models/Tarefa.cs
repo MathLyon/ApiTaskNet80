@@ -11,5 +11,7 @@
         public DateTime Data { get; set; } = DateTime.Now;
 
         public DateTime DataRealized { get; set; }
+
+        public int IdCategoria { get; set; }
     }
 }
